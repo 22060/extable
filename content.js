@@ -5,7 +5,7 @@ function main() {
         var tbl = document.getElementsByTagName("table").item(0);
         // 行に対するループ
         var rows = tbl.rows;
-        for (var i = 0, len = rows.length; i < len; i++) {
+        for (var i = 3, len = rows.length; i < len; i++) {
             var cols = rows[i].cells.length;
             // 列に対するループ
             console.log(rows[i].cells[3].innerText);
